@@ -12,7 +12,7 @@ module.exports = {
         "gradient-to-br": "linear-gradient(270deg,#f48fb1,#f48fb1)",
       }),
       fontFamily: {
-        CeraBlack: ["Exo-Black", "sans-serif"],
+        poppins: ["Poppins", "sans-serif"],
       },
       colors: {
         primary: "#0A0E12",

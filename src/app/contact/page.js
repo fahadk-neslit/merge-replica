@@ -24,7 +24,7 @@ function Contact() {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-1">
         <div
-          className="flex-col h-full w-full bg-greyBlack p-[50px] justify-center items-center"
+          className="flex flex-col h-full w-full bg-greyBlack p-[50px] justify-center items-center"
           style={{
             borderTopLeftRadius: 20,
             borderBottomLeftRadius: 20,

@@ -1,37 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import "../../styles/fonts.css";
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-@import url("/public/assets/fonts/CeraPro-Black.ttf");
-
-@font-face {
-  font-family: "CeraPro-Black";
-  font-weight: "bold";
-  src: url("/public/assets/fonts/CeraPro-Black.ttf");
-}
-
-@font-face {
-  font-family: "CeraPro-Bold";
-  font-weight: "bold";
-  src: url("/public/assets/fonts/CeraPro-Bold.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "CeraPro-Regular";
-  font-weight: "bold";
-  src: url("/public/assets/fonts/CeraPro-Regular.ttf") format("truetype");
-}
-@font-face {
-  font-family: "CeraPro-Medium";
-  font-weight: "bold";
-  src: url("/public/assets/fonts/CeraPro-Medium.ttf") format("truetype");
-}
-@font-face {
-  font-family: "CeraPro-Thin";
-  font-weight: "bold";
-  src: url("/public/assets/fonts/CeraPro-Thin.ttf") format("truetype");
-}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800;900&display=swap");
 
 * {
   box-sizing: border-box;
@@ -53,25 +23,22 @@
 .marginNav {
   @apply px-[8%] md:px-[64px];
 }
-.CeraBold {
-  font-family: CeraPro-Black;
-  color: red;
-}
+
 .body-padding {
   padding-left: 64px;
   padding-right: 64px;
 }
 
 .heading1 {
-  @apply text-[2.4rem] md:text-[2.4rem] lg:text-[2.4rem] tracking-wide font-[500] font-CeraBlack;
+  @apply text-[2.4rem] md:text-[2.4rem] lg:text-[2.4rem] tracking-wide font-[500] font-poppins;
 }
 
 .heading2 {
-  @apply text-[1.6rem] md:text-[1.6rem] lg:text-[1.6rem] tracking-wide font-[500] font-CeraBlack;
+  @apply text-[1.6rem] md:text-[1.6rem] lg:text-[1.6rem] tracking-wide font-[500] font-poppins;
 }
 
 .heading3 {
-  @apply text-[1rem] md:text-[1rem] lg:text-[1rem] font-[500] font-CeraBlack;
+  @apply text-[1rem] md:text-[1rem] lg:text-[1rem] font-[500] font-poppins;
 }
 
 .paragraph1 {
