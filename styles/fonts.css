@@ -1,0 +1,11 @@
+/* fonts.css */
+@font-face {
+  font-family: "Exo-Black";
+  src: url("/public/assets/fonts/Exo-Black.ttf") format("truetype");
+  /* You can specify different font formats for broader browser compatibility */
+}
+/* You can define additional font weights and styles if needed */
+@font-face {
+  font-family: "CeraPro-Regular";
+  src: url("/public/assets/fonts/Exo-Regular.ttf") format("truetype");
+}
